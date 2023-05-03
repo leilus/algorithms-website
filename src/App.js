@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Header.js';
 import { BrowserRouter, Router, Route, Routes, Link } from "react-router-dom";
 import BubbleSort from './pages/BubbleSort';
-import Home from './Home';
+import Home from './pages/Home';
 import 'animate.css';
+import CodeComponent from './pages/CodeComponent';
 
 function App() {
 
@@ -15,19 +16,21 @@ function App() {
    <div className='App'>
   
    <div className="header">
+  
             <div className="nav">
                 <h1>CHOOSE YOUR ALGORITHM</h1>
                 <ul>
-                    <li><span><Link style={{ textDecoration: 'none', color: 'black' }} to="/bubblesort">BUBBLE SORT</Link></span></li>
-                    <li><span><Link style={{ textDecoration: 'none', color: 'black' }} to="/selectionsort">SELECTION SORT</Link></span></li>
-                    <li><span><Link style={{ textDecoration: 'none', color: 'black' }} to="/insertionsort">INSERTION SORT</Link></span></li>
+                <li><span><Link style={{ textDecoration: 'none'}} to="/">HOME PAGE</Link></span></li>
+                    <li><span><Link style={{ textDecoration: 'none' }} to="/bubblesort">BUBBLE SORT</Link></span></li>
+                    <li><span><Link style={{ textDecoration: 'none' }} to="/selectionsort">SELECTION SORT</Link></span></li>
+                    <li><span><Link style={{ textDecoration: 'none'}} to="/insertionsort">INSERTION SORT</Link></span></li>
                 </ul>
             </div>
         </div>
     
  
   <Routes>
-    <Route exact path='/home' element={<Home />} />
+    <Route exact path='/' element={<Home />} />
     <Route path='/bubblesort' element={<BubbleSort />} />
     <Route path='/selectionsort' element={<BubbleSort />} />
     <Route path='/insertionsort' element={<BubbleSort />} />

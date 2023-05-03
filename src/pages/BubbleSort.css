@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+     
+}
+
+.bubble-sort{
+     padding-left: 260px;
+    background-color: #394867;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.bubble-sort h1{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.bubble-sort li{
+    color: white;
+    font-family: Nunito, sans-serif;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.bubble-sort h3{
+    padding: 5px;
+}
