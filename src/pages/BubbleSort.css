@@ -34,3 +34,14 @@
 .bubble-sort h3{
     padding: 5px;
 }
+
+.bubble-sort button{
+    background-color: #1d2730;
+    padding: 15px;
+    cursor: pointer;
+  
+}
+.bubble-sort button:hover{
+    background-color: #11171c;
+}
+

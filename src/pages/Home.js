@@ -1,12 +1,16 @@
 import './Home.css';
+import Img1 from './img/education.png';
 
 const Home = () => {
     return ( 
     <div className="home">
-      <h1>Co to jest algorytm?</h1>  
-      <li>Skończony, uporządkowany opis preyzyjmie sformułowanych czynności prowadzących do przetworzenia danych wejściowych na wyjściowe.</li>
-      <h1>Jakie sa sposoby rozwiazywania problemu?</h1>
-      
+     <div className="typewritter">
+      <h1>Witaj na stronie o algorytmach!</h1>
+     </div>
+     <div className="home-content">
+    <img src={Img1} alt='Education' />
+    <p><strong>Algorytm</strong> to skończony ciąg jasno zdefiniowanych czynności koniecznych do wykonania pewnego rodzaju zadań, sposób postępowania prowadzący do rozwiązania problemu.</p>
+     </div>
     </div>
     
      );
