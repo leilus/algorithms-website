@@ -6,6 +6,7 @@ import BubbleSort from './pages/BubbleSort';
 import Home from './pages/Home';
 import 'animate.css';
 import CodeComponent from './pages/CodeComponent';
+import logoGit from './pages/img/github.png';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                     <li><span><Link style={{ textDecoration: 'none' }} to="/selectionsort">SELECTION SORT</Link></span></li>
                     <li><span><Link style={{ textDecoration: 'none'}} to="/insertionsort">INSERTION SORT</Link></span></li>
                 </ul>
+               <a href="https://github.com/leilus/"> <img src={logoGit} alt="My Github" /> </a>
             </div>
         </div>
     

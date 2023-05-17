@@ -11,8 +11,7 @@
 .bubble-sort{
      padding-left: 260px;
     background-color: #394867;
-    height: 100%;
-    position: relative;
+    height: 100vh;
     width: 100%;
 }
 
@@ -24,12 +23,7 @@
     
 }
 
-.bubble-sort li{
-    color: white;
-    font-family: Nunito, sans-serif;
-    font-weight: 300;
-    padding: 10px;
-}
+
 
 .bubble-sort h3{
     padding: 5px;
