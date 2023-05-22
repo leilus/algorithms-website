@@ -13,6 +13,7 @@
     background-color: #394867;
     height: 100vh;
     width: 100%;
+    
 }
 
 .bubble-sort h1{
@@ -39,3 +40,49 @@
     background-color: #11171c;
 }
 
+.section_bs{
+    margin-bottom: 10px;
+    background-color: #566b94;
+    max-width: 650px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #252f44;
+    display: flex;
+    margin: auto;
+}
+
+.section_bs p{
+    padding: 25px;
+}
+
+.code_section{
+    max-width: 1300px;
+    padding: 10px;
+    display: flex;
+}
+
+.information_bs{
+    background-color: #2f3a50;
+    max-width: 400px;
+    padding: 12px;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+   display: flex;
+   text-align: center;
+   box-shadow: 5px 10px 18px #252f44;
+}
+
+.information_bs p {
+    padding: 10px;
+}
+
+.component_bs{
+    padding: 10px;
+
+}
+
+.bubble-sort img{
+    height: 200px;
+    display: inline;
+}

@@ -10,7 +10,7 @@ const Home = () => {
      </div>
      <div className="home-content">
     <img src={Img1} alt='Education' />
-    <p><strong>Algorytm</strong> to skończony ciąg jasno zdefiniowanych czynności koniecznych do wykonania pewnego rodzaju zadań, sposób postępowania prowadzący do rozwiązania problemu.</p>
+    <p><strong>Algorytm</strong> to skończony ciąg jasno zdefiniowanych czynności koniecznych do wykonania pewnego rodzaju zadań, sposób postępowania prowadzący do rozwiązania problemu. <a href="https://panthema.net/2013/sound-of-sorting/">Tutaj</a> możemy znaleźć fajny program do wizualizacji algorytmów.</p>
      </div>
      <div className="home-column">
       <div className="rows">

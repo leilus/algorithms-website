@@ -129,3 +129,8 @@ body{
     0%, 50%, 100% { transform: scale(1, 1); }
     30%, 80% { transform: scale(0.92, 0.95); }
   }
+
+  .home-content a{
+    color:#c81b1b;
+    text-decoration: underline;
+  }
