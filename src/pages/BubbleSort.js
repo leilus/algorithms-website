@@ -3,8 +3,8 @@ import 'animate.css';
 import bbsort from './img/bubble_sort.gif';
 import React, { useState, useEffect, useRef } from "react";
 import { CopyBlock } from "react-code-blocks";
-import CodeComponent from './CodeComponent';
-import SecondCodeComponent from './SecondCodeComponent';
+import CodeComponent from './code_sections/CodeComponent';
+import SecondCodeComponent from './code_sections/SecondCodeComponent';
 
 
 

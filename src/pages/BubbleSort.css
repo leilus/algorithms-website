@@ -79,10 +79,15 @@
 
 .component_bs{
     padding: 10px;
-
+    float: left;
+    width: 600px;
 }
 
+
+
 .bubble-sort img{
-    height: 200px;
-    display: inline;
+    height: 400px;
+    position: relative;
+    left: 300px;
+    top: 100px;
 }

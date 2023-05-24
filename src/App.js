@@ -5,8 +5,10 @@ import { BrowserRouter, Router, Route, Routes, Link } from "react-router-dom";
 import BubbleSort from './pages/BubbleSort';
 import Home from './pages/Home';
 import 'animate.css';
-import CodeComponent from './pages/CodeComponent';
+import CodeComponent from './pages/code_sections/CodeComponent';
 import logoGit from './pages/img/github.png';
+import SelectionSort from './pages/SelectionSort';
+import InsertionSort from './pages/InsertionSort';
 
 function App() {
 
@@ -34,8 +36,8 @@ function App() {
   <Routes>
     <Route exact path='/' element={<Home />} />
     <Route path='/bubblesort' element={<BubbleSort />} />
-    <Route path='/selectionsort' element={<BubbleSort />} />
-    <Route path='/insertionsort' element={<BubbleSort />} />
+    <Route path='/selectionsort' element={<SelectionSort />} />
+    <Route path='/insertionsort' element={<InsertionSort />} />
   </Routes>
 
  
