@@ -2,57 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Shadows+Into+Light&display=swap');
 
 
-*{
-    padding: 0;
-    margin: 0;
-     
-}
-
-
-
-.bubble-sort{
-     padding-left: 260px;
+.insert_sort{
+    padding-left: 260px;
     background-color: #394867;
     height: 100vh;
     width: 100%;
-
 }
+
 
 .loading{
     background-color: #33415e;
-    height: 200vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
-.bubble-sort h1{
+
+.insert_sort h1{
     color: white;
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
     font-size: 45px;
-    
 }
 
-
-
-.bubble-sort h3{
-    padding: 5px;
-}
-
-.bubble-sort button{
+.insert_sort button{
     background-color: #1d2730;
     padding: 15px;
     cursor: pointer;
-  
-}
-.bubble-sort button:hover{
-    background-color: #11171c;
 }
 
-.section_bs{
+.insert_sort video {
+    height: 400px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+
+.section_is{
     margin-bottom: 10px;
     background-color: #566b94;
     max-width: 650px;
@@ -63,17 +52,11 @@
     margin: auto;
 }
 
-.section_bs p{
+.section_is{
     padding: 25px;
 }
 
-.code_section{
-    max-width: 1300px;
-    padding: 10px;
-    display: flex;
-}
-
-.information_bs{
+.information_is{
     background-color: #2f3a50;
     max-width: 400px;
     padding: 12px;  
@@ -85,21 +68,12 @@
    box-shadow: 5px 10px 18px #252f44;
 }
 
-.information_bs p {
+.information_is p {
     padding: 10px;
 }
 
-.component_bs{
+.main{
+    max-width: 1300px;
     padding: 10px;
-    float: left;
-    width: 600px;
-}
-
-
-
-.ig img{
-    height: 400px;
-    position: relative;
-    left: 300px;
-    top: 100px;
+    display: flex;
 }

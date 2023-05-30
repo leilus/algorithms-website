@@ -2,11 +2,25 @@ import './Home.css';
 import Img1 from './img/education.png';
 import Img2 from './img/time.png';
 import Img3 from './img/scheme.png';
+import {useState, useEffect} from 'react';
+import Img4 from './img/loading.svg';
 const Home = () => {
+
+    const [isLoading, setisLoading] = useState(false);
+
+
+    useEffect(() => {
+        setisLoading(true);
+        setTimeout(() => {
+            setisLoading(false);
+        }, 1000)
+    }, []);
+
     return ( 
     <div className="home">
+        {isLoading && <span><div className="loading"><img src={Img4}/></div></span> }
      <div className="typewritter">
-      <h1>Witaj na stronie o algorytmach!</h1>
+     <h1>Witaj na stronie o algorytmach!</h1>
      </div>
      <div className="home-content">
     <img src={Img1} alt='Education' />

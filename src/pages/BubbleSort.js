@@ -5,10 +5,22 @@ import React, { useState, useEffect, useRef } from "react";
 import { CopyBlock } from "react-code-blocks";
 import CodeComponent from './code_sections/CodeComponent';
 import SecondCodeComponent from './code_sections/SecondCodeComponent';
-
+import Img4 from './img/loading.svg';
 
 
 const BubbleSort = () => {
+    
+    const [isLoading, setisLoading] = useState(false);
+
+    useEffect(() => {
+        setisLoading(true);
+        setTimeout(() => {
+            setisLoading(false);
+        }, 1000)
+    }, []);
+
+
+
   const [active, setActive] = useState("first");
   const [show, setShow]= useState(true);
   const [showSnippet, setShowSnippet] = useState(false);
@@ -29,6 +41,7 @@ const BubbleSort = () => {
 
     return ( 
         <div className="bubble-sort">
+             {isLoading && <div className="loading"><img src={Img4}/></div> }
             <div className="header-bb">
             <h1 class="animate__animated animate__zoomIn">Bubble Sort - sortowanie babelkowe</h1>
             </div>
@@ -52,7 +65,9 @@ const BubbleSort = () => {
             {showSnippet && <SecondCodeComponent/>}
             
             </div>
+            <div className="ig">
             <img src={bbsort}></img>
+            </div>
        </div>
     );
 }
