@@ -9,6 +9,7 @@ import CodeComponent from './pages/code_sections/CodeComponent';
 import logoGit from './pages/img/github.png';
 import SelectionSort from './pages/SelectionSort';
 import InsertionSort from './pages/InsertionSort';
+import EmailForm from './pages/EmailForm';
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
                     <li><span><Link style={{ textDecoration: 'none' }} to="/bubblesort">BUBBLE SORT</Link></span></li>
                     <li><span><Link style={{ textDecoration: 'none' }} to="/selectionsort">SELECTION SORT</Link></span></li>
                     <li><span><Link style={{ textDecoration: 'none'}} to="/insertionsort">INSERTION SORT</Link></span></li>
+                    <li><span><Link style={{ textDecoration: 'none'}} to="/email_form">CONTACT</Link></span></li>
+
                 </ul>
                <a href="https://github.com/leilus/"> <img src={logoGit} alt="My Github" /> </a>
             </div>
@@ -38,6 +41,7 @@ function App() {
     <Route path='/bubblesort' element={<BubbleSort />} />
     <Route path='/selectionsort' element={<SelectionSort />} />
     <Route path='/insertionsort' element={<InsertionSort />} />
+    <Route path='/email_form' element={<EmailForm />} />
   </Routes>
 
  
