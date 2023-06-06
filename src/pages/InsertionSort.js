@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import CodeInsert from "./code_sections/CodeInsert";
 import './InsertionSort.css';
-//import video1 from './img/insertion_sort.mp4';
+import video1 from './img/insertion_sort.mp4';
 import Img4 from './img/loading.svg';
 
 const InsertionSort = () => {
@@ -50,7 +50,7 @@ const InsertionSort = () => {
                 <button onClick={toggle} style={{backgroundColor: (active === "first") ? "#11171c" : "#1d2730"}}>C++ with library</button>
                     <CodeInsert />
                 </div>
-              
+               <video src={video1} muted autoplay="autoplay" />
                </div>
              );
         }
